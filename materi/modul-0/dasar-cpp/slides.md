@@ -697,6 +697,9 @@ Tapi yang diluar {} bisa diakses di dalam {} (global variable biasanya).
 ```
 
 Contohnya:
+<div v-click="1">
+    Tapi sayangnya karena ini, void function yang punya side-effect itu ada (dan ini bad practice).
+</div>
 
 ```cpp {monaco}
 // ini bisa
