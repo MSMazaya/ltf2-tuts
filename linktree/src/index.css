@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+}
+
+a {
+    color: inherit;
+    /* blue colors for links too */
+    text-decoration: inherit;
+    /* no underline */
+
+    padding: 1rem 0rem;
+    background-color: black;
+    border-radius: 10rem;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: white;
+    width: 80vw;
+    max-width: 800px;
+}
+
+.container {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 1rem;
+}
+
+.deskripsi {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding-left: 2rem;
+    margin-bottom: 2rem;
+    padding-right: 2rem;
+    max-width: 600px;
+} 
+
